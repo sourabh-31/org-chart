@@ -16,16 +16,6 @@
   --yellow-200: #ffe58e;
 }
 
-.noiseBgPrimary {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 243 243'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' numOctaves='4' baseFrequency='0.7' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.2' /%3E%3C/svg%3E");
-  background-size: 225px 225px;
-}
-
-.noiseBgSec {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 243 243'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' numOctaves='4' baseFrequency='0.7' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.12' /%3E%3C/svg%3E");
-  background-size: 225px 225px;
-}
-
 .rightSidebar-content::-webkit-scrollbar {
   display: none;
 }
@@ -37,18 +27,6 @@
 .toast-custom {
   font-family: "Mulish", system-ui;
   letter-spacing: 0.02em;
-}
-
-/* Ellipse styles */
-.ellipse {
-  position: fixed;
-  width: 1050px;
-  height: 1050px;
-  right: -200px;
-  top: 350px;
-  background: rgba(0, 43, 195, 0.4);
-  filter: blur(170px);
-  z-index: 10;
 }
 
 .react-flow__attribution {

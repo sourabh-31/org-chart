@@ -100,7 +100,7 @@ function Window({
       <div
         className={cn(
           "flex h-full flex-col bg-[#292D38]",
-          className || "w-[22rem] sm:w-[30rem] xl:w-[32rem] 2xl:w-[34rem]"
+          className || "w-full sm:w-[30rem] xl:w-[32rem] 2xl:w-[34rem]"
         )}
       >
         {/* Sidebar header - fixed */}

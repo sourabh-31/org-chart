@@ -56,7 +56,7 @@ export default function MoveNode({ title }: MoveNodeProps) {
         <ExtendedSelect
           label="Manager"
           name="manager"
-          placeholder="Search person or department or location"
+          placeholder="Search manager"
           options={managers}
           isRequired
           onChange={(option) => setSelectedManager(option)}
@@ -64,7 +64,7 @@ export default function MoveNode({ title }: MoveNodeProps) {
         />
       </div>
 
-      <div className="-mt-4">
+      <div className="-mt-3">
         <label
           htmlFor="moveSubordinates"
           className="flex cursor-pointer items-center"
@@ -72,16 +72,16 @@ export default function MoveNode({ title }: MoveNodeProps) {
           <input
             type="checkbox"
             id="moveSubordinates"
-            className="relative size-[14px] appearance-none rounded-sm border border-white bg-transparent checked:border-white 
-             checked:bg-transparent checked:before:absolute checked:before:bottom-[2.25px]
-             checked:before:left-[3px]
-             checked:before:h-[10px] checked:before:w-[6px] checked:before:rotate-45 
+            className="relative w-[15px] h-[13px] appearance-none rounded-sm border border-white bg-transparent checked:border-white 
+             checked:bg-transparent checked:before:absolute checked:before:bottom-[2px]
+             checked:before:left-[3.5px]
+             checked:before:h-[8px] checked:before:w-[4px] checked:before:rotate-45 
              checked:before:border-b-2 checked:before:border-r-2 checked:before:border-white 
              focus:outline-none"
             checked={moveSubordinates}
             onChange={() => setMoveSubordinates(!moveSubordinates)}
           />
-          <span className="ml-2 font-mulish text-sm font-medium text-white">
+          <span className="ml-2 font-mulish text-xs font-medium text-white">
             Move all direct reports and subordinates with this change
           </span>
         </label>
