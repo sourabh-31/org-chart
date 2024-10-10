@@ -209,7 +209,7 @@ export default function AddPerson() {
           </h2>
 
           {/* Work number */}
-          <div className="flex flex-col items-center gap-2 sm:flex-row">
+          <div className="flex flex-col  gap-2 sm:flex-row">
             <Input.Root name="workNumber">
               <Input.Icon iconSrc="/assets/svg/my-brands/poc/phone-ring.svg" />
               <Input.Content
@@ -229,7 +229,7 @@ export default function AddPerson() {
           </div>
 
           {/* Mobile number */}
-          <div className="flex flex-col items-center gap-2 sm:flex-row">
+          <div className="flex flex-col gap-2 sm:flex-row">
             <Input.Root name="mobileNumber">
               <Input.Icon iconSrc="/assets/svg/my-brands/poc/phone-ring.svg" />
               <Input.Content

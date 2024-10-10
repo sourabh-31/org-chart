@@ -7,14 +7,14 @@ export default function Switch() {
   const toggleSwitch = () => setIsChecked(!isChecked);
 
   return (
-    <div className="mb-6 mr-[6px] mt-[-20px] flex h-12 w-[88%] items-center self-end rounded-lg border border-[#b4b4b4] bg-[#292d38] p-2 font-mulish text-sm font-bold text-[#FFFFFF99] outline-none sm:mb-[2px] sm:mr-0 sm:mt-0 sm:w-[195px] sm:self-center">
+    <div className="mb-6 mr-[6px] mt-[-20px] flex h-12 w-[92%] items-center ml-8 rounded-lg border border-[#b4b4b4] bg-[#292d38] p-2 font-mulish text-sm font-bold text-[#FFFFFF99] outline-none sm:mb-[2px] sm:mr-0 sm:mt-0 sm:w-[195px]">
       <Image
         src="/assets/svg/my-brands/poc/whatsapp-logo.svg"
         alt="whatsapp-icon"
         width={26}
         height={26}
       />
-      <span className="ml-1 text-xs font-semibold text-[#FFFFFFCC] sm:text-[10px] sm:leading-[12px] 2xl:ml-2 2xl:text-xs">
+      <span className="ml-2 text-xs font-semibold text-[#FFFFFFCC] sm:text-[10px] sm:leading-[12px] 2xl:ml-2 2xl:text-xs">
         Also WhatsApp Number
       </span>
       <button
